@@ -1,0 +1,91 @@
+
+/* CSS RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+
+    a {
+        text-decoration: none;
+    }
+    
+    p {
+        margin: 0.75rem 0;
+    }
+}
+
+// Navbar
+#navbar {
+    background: #333333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 1rem;
+    
+    // Logo
+    .logo {
+        color:  #93cb52;
+    }
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+
+#navbar ul li a {
+    color: white;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover {
+    background: #93cb52;
+    border-radius: 5px;
+}
+
+
+/* showcase */
+#showcase {
+    background:white url('../images/abstract.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;  
+}
+
+#showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+// Container for pages
+.l-heading {
+    font-size: 2rem;
+}
+ .container {
+    max-width: 60rem;
+    margin: 30px auto;
+    text-align: center;
+    padding: 30px 30px;
+    line-height: 1.5;
+    border: 20px solid #93cb52;
+    margin-top: 60px;
+    
+    img {
+        width: 70%;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+
